@@ -1,8 +1,8 @@
 #!/bin/bash
 
 # Настройки
-PROJECT_DIR="/var/www/your-project"
-REPO_URL="https://github.com/yourusername/your-repo.git"
+PROJECT_DIR="/var/www/lastframe"
+REPO_URL="https://github.com/wollkey/lastframe.git"
 PORT=8080
 
 echo "🚀 Начинаем деплой..."
@@ -39,7 +39,7 @@ echo "🌐 Запускаем PHP сервер на порту $PORT"
 nohup php -S 0.0.0.0:$PORT -t public > server.log 2>&1 &
 
 echo "✅ Деплой завершен!"
-echo "🌍 Сайт доступен по адресу: http://your-server-ip:$PORT"
+echo "🌍 Сайт доступен по адресу: http://77.73.71.219:$PORT"
 echo "📋 Логи сервера: $PROJECT_DIR/server.log"
 
 # Показываем статус
