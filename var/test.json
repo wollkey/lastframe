@@ -1,0 +1,645 @@
+[
+  {
+    "filmId": "2702",
+    "slug": "citizen-kane",
+    "title": "Citizen Kane",
+    "userRatings": [
+      {
+        "user": "atomic_rage",
+        "rating": "7",
+        "isOwner": false
+      },
+      {
+        "user": "Al1vka",
+        "rating": "8",
+        "isOwner": false
+      },
+      {
+        "user": "nickbiryukov",
+        "rating": "9",
+        "isOwner": false
+      },
+      {
+        "user": "christallisme",
+        "rating": "8",
+        "isOwner": false
+      },
+      {
+        "user": "Arsenii Oguzov",
+        "rating": "9",
+        "isOwner": false
+      },
+      {
+        "user": "JustDanya",
+        "rating": "9",
+        "isOwner": false
+      },
+      {
+        "user": "lenka_penka",
+        "rating": "8",
+        "isOwner": false
+      },
+      {
+        "user": "wollkey",
+        "rating": "10",
+        "isOwner": true
+      }
+    ]
+  },
+  {
+    "filmId": "51171",
+    "slug": "mulholland-drive",
+    "title": "Mulholland Drive",
+    "userRatings": [
+      {
+        "user": "Arsenii Oguzov",
+        "rating": "8",
+        "isOwner": false
+      },
+      {
+        "user": "atomic_rage",
+        "rating": "8",
+        "isOwner": false
+      },
+      {
+        "user": "nickbiryukov",
+        "rating": "8",
+        "isOwner": false
+      },
+      {
+        "user": "Al1vka",
+        "rating": "5",
+        "isOwner": false
+      },
+      {
+        "user": "JustDanya",
+        "rating": "6",
+        "isOwner": false
+      },
+      {
+        "user": "christallisme",
+        "rating": "10",
+        "isOwner": false
+      },
+      {
+        "user": "lenka_penka",
+        "rating": "2",
+        "isOwner": false
+      },
+      {
+        "user": "wollkey",
+        "rating": "8",
+        "isOwner": true
+      }
+    ]
+  },
+  {
+    "filmId": "51669",
+    "slug": "vertigo",
+    "title": "Vertigo",
+    "userRatings": [
+      {
+        "user": "Arsenii Oguzov",
+        "rating": "7",
+        "isOwner": false
+      },
+      {
+        "user": "atomic_rage",
+        "rating": "4",
+        "isOwner": false
+      },
+      {
+        "user": "nickbiryukov",
+        "rating": "8",
+        "isOwner": false
+      },
+      {
+        "user": "christallisme",
+        "rating": "7",
+        "isOwner": false
+      },
+      {
+        "user": "Al1vka",
+        "rating": "6",
+        "isOwner": false
+      },
+      {
+        "user": "lenka_penka",
+        "rating": "4",
+        "isOwner": false
+      },
+      {
+        "user": "JustDanya",
+        "rating": "4",
+        "isOwner": false
+      },
+      {
+        "user": "wollkey",
+        "rating": "8",
+        "isOwner": true
+      }
+    ]
+  },
+  {
+    "filmId": "21149",
+    "slug": "jeanne-dielman-23-quai-du-commerce-1080-bruxelles",
+    "title": "Jeanne Dielman, 23, quai du Commerce, 1080 Bruxelles",
+    "userRatings": [
+      {
+        "user": "nickbiryukov",
+        "rating": "3",
+        "isOwner": false
+      },
+      {
+        "user": "Arsenii Oguzov",
+        "rating": "5",
+        "isOwner": false
+      },
+      {
+        "user": "atomic_rage",
+        "rating": "4",
+        "isOwner": false
+      },
+      {
+        "user": "christallisme",
+        "rating": "8",
+        "isOwner": false
+      },
+      {
+        "user": "Al1vka",
+        "rating": "5",
+        "isOwner": false
+      },
+      {
+        "user": "lenka_penka",
+        "rating": "8",
+        "isOwner": false
+      },
+      {
+        "user": "JustDanya",
+        "rating": "5",
+        "isOwner": false
+      },
+      {
+        "user": "wollkey",
+        "rating": "5",
+        "isOwner": true
+      }
+    ]
+  },
+  {
+    "filmId": "40554",
+    "slug": "tokyo-story",
+    "title": "Tokyo Story",
+    "userRatings": [
+      {
+        "user": "nickbiryukov",
+        "rating": "8",
+        "isOwner": false
+      },
+      {
+        "user": "lenka_penka",
+        "rating": "6",
+        "isOwner": false
+      },
+      {
+        "user": "Al1vka",
+        "rating": "8",
+        "isOwner": false
+      },
+      {
+        "user": "Arsenii Oguzov",
+        "rating": "8",
+        "isOwner": false
+      },
+      {
+        "user": "atomic_rage",
+        "rating": "7",
+        "isOwner": false
+      },
+      {
+        "user": "christallisme",
+        "rating": "8",
+        "isOwner": false
+      },
+      {
+        "user": "JustDanya",
+        "rating": "5",
+        "isOwner": false
+      },
+      {
+        "user": "wollkey",
+        "rating": "6",
+        "isOwner": true
+      }
+    ]
+  },
+  {
+    "filmId": "51309",
+    "slug": "in-the-mood-for-love",
+    "title": "In the Mood for Love",
+    "userRatings": [
+      {
+        "user": "nickbiryukov",
+        "rating": "8",
+        "isOwner": false
+      },
+      {
+        "user": "Al1vka",
+        "rating": "7",
+        "isOwner": false
+      },
+      {
+        "user": "lenka_penka",
+        "rating": "5",
+        "isOwner": false
+      },
+      {
+        "user": "Koshmarus",
+        "rating": "5",
+        "isOwner": false
+      },
+      {
+        "user": "atomic_rage",
+        "rating": "8",
+        "isOwner": false
+      },
+      {
+        "user": "JustDanya",
+        "rating": "8",
+        "isOwner": false
+      },
+      {
+        "user": "Arsenii Oguzov",
+        "rating": "9",
+        "isOwner": false
+      },
+      {
+        "user": "christallisme",
+        "rating": "8",
+        "isOwner": false
+      },
+      {
+        "user": "wollkey",
+        "rating": "6",
+        "isOwner": true
+      }
+    ]
+  },
+  {
+    "filmId": "51376",
+    "slug": "the-rules-of-the-game",
+    "title": "The Rules of the Game",
+    "userRatings": [
+      {
+        "user": "christallisme",
+        "rating": "5",
+        "isOwner": false
+      },
+      {
+        "user": "Koshmarus",
+        "rating": "8",
+        "isOwner": false
+      },
+      {
+        "user": "Arsenii Oguzov",
+        "rating": "9",
+        "isOwner": false
+      },
+      {
+        "user": "JustDanya",
+        "rating": "5",
+        "isOwner": false
+      },
+      {
+        "user": "nickbiryukov",
+        "rating": "8",
+        "isOwner": false
+      },
+      {
+        "user": "atomic_rage",
+        "rating": "7",
+        "isOwner": false
+      },
+      {
+        "user": "Al1vka",
+        "rating": "8",
+        "isOwner": false
+      },
+      {
+        "user": "lenka_penka",
+        "rating": "6",
+        "isOwner": false
+      },
+      {
+        "user": "wollkey",
+        "rating": "7",
+        "isOwner": true
+      }
+    ]
+  },
+  {
+    "filmId": "69909",
+    "slug": "my-friend-ivan-lapshin",
+    "title": "My Friend Ivan Lapshin",
+    "userRatings": [
+      {
+        "user": "Koshmarus",
+        "rating": "1",
+        "isOwner": false
+      },
+      {
+        "user": "Arsenii Oguzov",
+        "rating": "4",
+        "isOwner": false
+      },
+      {
+        "user": "JustDanya",
+        "rating": "8",
+        "isOwner": false
+      },
+      {
+        "user": "nickbiryukov",
+        "rating": "8",
+        "isOwner": false
+      },
+      {
+        "user": "Al1vka",
+        "rating": "7",
+        "isOwner": false
+      },
+      {
+        "user": "lenka_penka",
+        "rating": "6",
+        "isOwner": false
+      },
+      {
+        "user": "wollkey",
+        "rating": "6",
+        "isOwner": true
+      }
+    ]
+  },
+  {
+    "filmId": "51921",
+    "slug": "spirited-away",
+    "title": "Spirited Away",
+    "userRatings": [
+      {
+        "user": "nickbiryukov",
+        "rating": "8",
+        "isOwner": false
+      },
+      {
+        "user": "Vans_von_Trier",
+        "rating": "9",
+        "isOwner": false
+      },
+      {
+        "user": "atomic_rage",
+        "rating": "10",
+        "isOwner": false
+      },
+      {
+        "user": "JustDanya",
+        "rating": "10",
+        "isOwner": false
+      },
+      {
+        "user": "christallisme",
+        "rating": "10",
+        "isOwner": false
+      },
+      {
+        "user": "wollkey",
+        "rating": "6",
+        "isOwner": true
+      }
+    ]
+  },
+  {
+    "filmId": "35411",
+    "slug": "man-with-a-movie-camera",
+    "title": "Man with a Movie Camera",
+    "userRatings": [
+      {
+        "user": "christallisme",
+        "rating": "8",
+        "isOwner": false
+      },
+      {
+        "user": "Koshmarus",
+        "rating": "9",
+        "isOwner": false
+      },
+      {
+        "user": "Arsenii Oguzov",
+        "rating": "8",
+        "isOwner": false
+      },
+      {
+        "user": "nickbiryukov",
+        "rating": "9",
+        "isOwner": false
+      },
+      {
+        "user": "atomic_rage",
+        "rating": "5",
+        "isOwner": false
+      },
+      {
+        "user": "Al1vka",
+        "rating": "9",
+        "isOwner": false
+      },
+      {
+        "user": "JustDanya",
+        "rating": "4",
+        "isOwner": false
+      },
+      {
+        "user": "lenka_penka",
+        "rating": "10",
+        "isOwner": false
+      },
+      {
+        "user": "wollkey",
+        "rating": "8",
+        "isOwner": true
+      }
+    ]
+  },
+  {
+    "filmId": "18768",
+    "slug": "earth-1930",
+    "title": "Earth",
+    "userRatings": [
+      {
+        "user": "Arsenii Oguzov",
+        "rating": "6",
+        "isOwner": false
+      },
+      {
+        "user": "lenka_penka",
+        "rating": "6",
+        "isOwner": false
+      },
+      {
+        "user": "Koshmarus",
+        "rating": "3",
+        "isOwner": false
+      },
+      {
+        "user": "nickbiryukov",
+        "rating": "7",
+        "isOwner": false
+      },
+      {
+        "user": "christallisme",
+        "rating": "4",
+        "isOwner": false
+      },
+      {
+        "user": "Vans_von_Trier",
+        "rating": "6",
+        "isOwner": false
+      },
+      {
+        "user": "JustDanya",
+        "rating": "4",
+        "isOwner": false
+      },
+      {
+        "user": "atomic_rage",
+        "rating": "5",
+        "isOwner": false
+      },
+      {
+        "user": "wollkey",
+        "rating": "5",
+        "isOwner": true
+      }
+    ]
+  },
+  {
+    "filmId": "312205",
+    "slug": "moonlight-2016",
+    "title": "Moonlight",
+    "userRatings": [
+      {
+        "user": "Arsenii Oguzov",
+        "rating": "8",
+        "isOwner": false
+      },
+      {
+        "user": "Al1vka",
+        "rating": "5",
+        "isOwner": false
+      },
+      {
+        "user": "lenka_penka",
+        "rating": "9",
+        "isOwner": false
+      },
+      {
+        "user": "JustDanya",
+        "rating": "7",
+        "isOwner": false
+      },
+      {
+        "user": "Koshmarus",
+        "rating": "5",
+        "isOwner": false
+      },
+      {
+        "user": "Vans_von_Trier",
+        "rating": "6",
+        "isOwner": false
+      },
+      {
+        "user": "atomic_rage",
+        "rating": "6",
+        "isOwner": false
+      },
+      {
+        "user": "christallisme",
+        "rating": "8",
+        "isOwner": false
+      },
+      {
+        "user": "wollkey",
+        "rating": "7",
+        "isOwner": true
+      }
+    ]
+  },
+  {
+    "filmId": "51716",
+    "slug": "seven-samurai",
+    "title": "Seven Samurai",
+    "userRatings": [
+      {
+        "user": "Arsenii Oguzov",
+        "rating": "9",
+        "isOwner": false
+      },
+      {
+        "user": "atomic_rage",
+        "rating": "8",
+        "isOwner": false
+      },
+      {
+        "user": "Vans_von_Trier",
+        "rating": "9",
+        "isOwner": false
+      },
+      {
+        "user": "Koshmarus",
+        "rating": "9",
+        "isOwner": false
+      },
+      {
+        "user": "lenka_penka",
+        "rating": "6",
+        "isOwner": false
+      },
+      {
+        "user": "JustDanya",
+        "rating": "8",
+        "isOwner": false
+      },
+      {
+        "user": "wollkey",
+        "rating": "6",
+        "isOwner": true
+      }
+    ]
+  },
+  {
+    "filmId": "35988",
+    "slug": "yi-yi",
+    "title": "Yi Yi",
+    "userRatings": [
+      {
+        "user": "lenka_penka",
+        "rating": "8",
+        "isOwner": false
+      },
+      {
+        "user": "Arsenii Oguzov",
+        "rating": "10",
+        "isOwner": false
+      },
+      {
+        "user": "Koshmarus",
+        "rating": "7",
+        "isOwner": false
+      },
+      {
+        "user": "wollkey",
+        "rating": "0",
+        "isOwner": true
+      }
+    ]
+  }
+]

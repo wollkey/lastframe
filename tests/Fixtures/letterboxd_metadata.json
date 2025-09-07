@@ -1,0 +1,61 @@
+{
+  "result": true,
+  "csrf": "c445d5338e27fcedee69",
+  "liked": [
+    "film:2702"
+  ],
+  "watched": [
+    "film:51921",
+    "film:35411",
+    "film:51669",
+    "film:69909",
+    "film:51171",
+    "film:51309",
+    "film:51376",
+    "film:2702",
+    "film:21149",
+    "film:40554"
+  ],
+  "ratings": [
+    {
+      "uid": "film:51921",
+      "rating": 6
+    },
+    {
+      "uid": "film:35411",
+      "rating": 8
+    },
+    {
+      "uid": "film:51669",
+      "rating": 8
+    },
+    {
+      "uid": "film:69909",
+      "rating": 6
+    },
+    {
+      "uid": "film:51171",
+      "rating": 8
+    },
+    {
+      "uid": "film:51309",
+      "rating": 6
+    },
+    {
+      "uid": "film:51376",
+      "rating": 7
+    },
+    {
+      "uid": "film:2702",
+      "rating": 10
+    },
+    {
+      "uid": "film:21149",
+      "rating": 5
+    },
+    {
+      "uid": "film:40554",
+      "rating": 6
+    }
+  ]
+}

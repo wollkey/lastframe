@@ -1,0 +1,26 @@
+name: Deploy
+
+on:
+    push:
+        branches: [ main ]
+
+jobs:
+    deploy:
+        runs-on: ubuntu-latest
+
+        steps:
+            - uses: actions/checkout@v4
+
+            -   name: Deploy via SSH
+                uses: appleboy/ssh-action@v0.1.5
+                with:
+                    host: ${{ secrets.HOST }}
+                    username: ${{ secrets.USERNAME }}
+                    key: ${{ secrets.SSH_KEY }}
+                    script: |
+                        cd /opt/last-frame-society
+                        git pull origin main
+                        docker build -t last-frame-app .
+                        docker stop last-frame-app || true
+                        docker rm last-frame-app || true
+                        docker run -d --name last-frame-app -p 80:8080 --restart unless-stopped last-frame-app

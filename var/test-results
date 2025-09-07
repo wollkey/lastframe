@@ -1,0 +1,1 @@
+{"version":2,"defects":[],"times":{"Tests\\RatingServiceTest::testGetFriendRatings":0.017,"Tests\\RatingServiceTest::testGetFilmList":0.01,"Tests\\RatingServiceTest::testGetFilmListWithFriendRatings":0.101}}

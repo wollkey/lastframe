@@ -1,0 +1,48 @@
+{
+    "name": "wollkey/letterboxd",
+    "description": "Film rating parser",
+    "keywords": [
+        "letterboxd"
+    ],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Alex",
+            "email": "wollkey@gmail.com"
+        }
+    ],
+    "require": {
+        "php": "8.4.*",
+        "ext-json": "*",
+        "guzzlehttp/guzzle": "^7.10",
+        "guzzlehttp/psr7": "^2.8",
+        "slim/psr7": "^1.5",
+        "slim/slim": "^4.10",
+        "symfony/cache": "^7.3",
+        "symfony/css-selector": "^7.3",
+        "symfony/dom-crawler": "^7.3",
+        "symfony/dotenv": "^7.3",
+        "symfony/filesystem": "^7.3"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^12.3"
+    },
+    "config": {
+        "process-timeout": 0,
+        "sort-packages": true
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Tests\\": "tests/"
+        }
+    },
+    "scripts": {
+        "start": "php -S localhost:8080 -t public",
+        "test": "phpunit"
+    }
+}
