@@ -1,14 +1,19 @@
+version: '3.8'
+
 services:
-    backend:
-        build:
-            context: ./backend
-            dockerfile: Dockerfile
+    php-app:
+        image: php:8.4-cli-alpine
+        container_name: lastframe-app
+        working_dir: /var/www/lastframe
+        volumes:
+            - .:/var/www/lastframe
         ports:
             - "8080:8080"
+        command: php -S 0.0.0.0:8080 -t public
+        restart: unless-stopped
+        networks:
+            - app-network
 
-    frontend:
-        build:
-            context: ./frontend
-            dockerfile: Dockerfile
-        ports:
-            - "80:80"
+networks:
+    app-network:
+        driver: bridge
