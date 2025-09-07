@@ -1,26 +1,27 @@
-name: Deploy
+name: Deployment
 
 on:
-    push:
-        branches: [ main ]
+    workflow_dispatch:
+
+permissions:
+    contents: read
 
 jobs:
-    deploy:
+    deployment:
         runs-on: ubuntu-latest
-
         steps:
-            - uses: actions/checkout@v4
-
-            -   name: Deploy via SSH
-                uses: appleboy/ssh-action@v0.1.5
+            -   name: Checkout
+                uses: actions/checkout@v4
+            -   name: executing remote ssh commands using password
+                uses: appleboy/ssh-action@v1.0.0
                 with:
                     host: ${{ secrets.HOST }}
                     username: ${{ secrets.USERNAME }}
-                    key: ${{ secrets.SSH_KEY }}
+                    password: ${{ secrets.PASSWORD }}
                     script: |
-                        cd /opt/last-frame-society
-                        git pull origin main
-                        docker build -t last-frame-app .
-                        docker stop last-frame-app || true
-                        docker rm last-frame-app || true
-                        docker run -d --name last-frame-app -p 80:8080 --restart unless-stopped last-frame-app
+                        cd /var/www/lastframe &&
+                        git fetch --all &&
+                        git reset --hard origin/master &&
+                        docker compose up -d --build &&
+                        chmod +x ./deploy.sh &&
+                        docker exec game_php /bin/sh -c "./deploy.sh"
