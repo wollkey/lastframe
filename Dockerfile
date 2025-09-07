@@ -1,27 +1,19 @@
-FROM php:8.4-cli
+FROM php:8.4-cli-alpine AS builder
 
-RUN apt-get update && apt-get install -y \
-    git \
-    curl \
-    libpng-dev \
-    libonig-dev \
-    libxml2-dev \
-    zip \
-    unzip
+COPY --from=composer:2 /usr/bin/composer /usr/bin/composer
 
-RUN docker-php-ext-install mbstring
+WORKDIR /var/www
 
-COPY --from=composer:latest /usr/bin/composer /usr/bin/composer
-
-WORKDIR /app
-
-COPY . .
-
-# Install PHP dependencies
+COPY composer.json composer.lock* ./
 RUN composer install --no-dev --optimize-autoloader
 
-# Expose port
+FROM php:8.4-cli
+
+WORKDIR /var/www
+
+COPY --from=builder /var/www/vendor ./vendor
+COPY . .
+
 EXPOSE 8080
 
-# Start PHP server
 CMD ["php", "-S", "0.0.0.0:8080", "-t", "public"]
